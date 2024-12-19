@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Now </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+ <!-- Payment Section  -->
+     <Section class="border border-solid border-black w-[750px] h-[600px] my-4 mx-auto rounded-xl bg-cyan-200">
+
+<h1 Class="text-center font-serif text-4xl text-black my-5">Payment Section </h1>
+<from class="flex gap-2 justify-center items-center">
+    <label class="text-xl font-serif my-auto" for="visa card">visa card:</label>
+    <input  type="text" name="" id="" placeholder="Inter Your visa card Number " class="w-[250px] h-[48px] border border-solid border-black text-center font-serif rounded-xl">
+
+    <label class="text-xl font-serif my-auto" for="paypal my-5">paypal card:</label>
+    <input  type="text" name="" id="" placeholder="Inter Your paypal card Number " class="w-[250px] h-[48px] border border-solid border-black text-center font-serif rounded-xl">
+<br>
+</from>
+
+  <!-- Select online Banking  -->
+   <h1 class="text-center text-3xl font-sans text-red-400 my-5">Select online Banking </h1>
+  <div class="flex gap-2 justify-center items-center text-xl font-serif my-5 ">
+    <input  type="radio" id="#" name="choice" value="Bikash">
+    <label for="Bikash">Bikash</label><br>
+  
+    <input type="radio" id="#" name="chice" value="Nagad">
+    <label for="Nagad">Nagad</label><br>
+  
+    <input type="radio" id="#" name="choice" value="Rocket">
+    <label for="Rocket">Rocket</label><br>
+    <input type="radio" id="#" name="choice" value="Upay">
+    <label for="Upay">Upay</label><br>
+  
+</div>
+
+
+ <!-- payment from -->
+ <div class="bg-white p-6 rounded-lg shadow-lg w-96 mx-auto my-2  ">
+    <h2 class="text-2xl font-bold text-center text-gray-800 mb-4">Payment Form</h2>
+    <form>
+      <!-- Amount Field -->
+      <div class="mb-4">
+        <label for="amount" class="block text-gray-700 font-medium mb-2">Amount</label>
+        <input 
+          type="number" 
+          id="amount" 
+          name="amount" 
+          placeholder="Enter amount" 
+          class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+      </div>
+
+      <!-- Password Field -->
+      <div class="mb-4">
+        <label for="password" class="block text-gray-700 font-medium mb-2">Password</label>
+        <input 
+          type="password" 
+          id="password" 
+          name="password" 
+          placeholder="Enter password" 
+          class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+      </div>
+
+      <!-- Payment Button -->
+      <button 
+        type="submit" 
+        class="w-full bg-blue-600 text-white font-medium py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+        Pay Now
+      </button>
+    </form>
+  </div>
+
+
+ </Section>
+    
+</body>
+</html>
